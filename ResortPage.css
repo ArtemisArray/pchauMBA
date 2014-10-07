@@ -1,0 +1,66 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.3/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_2 */
+#ResortPage_mobilebutton_2 {
+
+}
+.ui-btn.ResortPage_mobilebutton_2 {
+
+}
+/* mobilecontainer */
+.ui-content.ResortPage_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilefooter */
+.ResortPage_mobilefooter {
+	min-height:38px;
+}
+/* panel_3 */
+.ResortPage_panel_3 .ui-panel-inner {
+	padding: 15px 0px 15px 0px;
+}
+.ResortPage_panel_3:focus {
+	outline: 0;
+}
+/* mobilelist_4 */
+.ui-page .ResortPage_mobilelist_4 {
+	margin: 4px 0px 0px 0px;
+}
+/* mobilelistitem_5 */
+/* mobilelistitembutton_6 */
+.ResortPage_mobilelistitembutton_6 {
+
+}
+/* mobilelistitem_7 */
+/* mobilelistitembutton_8 */
+.ResortPage_mobilelistitembutton_8 {
+
+}
+/* mobilelistitem_9 */
+/* mobilelistitembutton_10 */
+.ResortPage_mobilelistitembutton_10 {
+
+}
+/* mobilelistitem_11 */
+/* mobilelistitembutton_12 */
+.ResortPage_mobilelistitembutton_12 {
+
+}
+/* mobilelistitem_13 */
+/* mobilelistitembutton_14 */
+.ResortPage_mobilelistitembutton_14 {
+
+}
+/* mobilelistitem_15 */
+/* mobilelistitembutton_16 */
+.ResortPage_mobilelistitembutton_16 {
+
+}
+/* mobilelistitem_17 */
+/* mobilelistitembutton_18 */
+.ResortPage_mobilelistitembutton_18 {
+
+}
