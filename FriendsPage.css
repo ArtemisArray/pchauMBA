@@ -1,0 +1,72 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.3/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_2 */
+#FriendsPage_mobilebutton_2 {
+
+}
+.ui-btn.FriendsPage_mobilebutton_2 {
+
+}
+/* mobilecontainer */
+.ui-content.FriendsPage_mobilecontainer {
+	padding: 0px 0px 0px 0px;
+}
+/* mobileimage_19 */
+.FriendsPage_mobileimage_19 {
+	margin: 0px 0px 0px 0px;
+	width: 290px; height: 395px;
+	display: block;
+}
+/* mobilefooter */
+.FriendsPage_mobilefooter {
+	min-height:38px;
+}
+/* leftMenuFriends */
+.FriendsPage_leftMenuFriends .ui-panel-inner {
+	padding: 15px 0px 15px 0px;
+}
+.FriendsPage_leftMenuFriends:focus {
+	outline: 0;
+}
+/* panelNavListFriends */
+.ui-page .FriendsPage_panelNavListFriends {
+	margin: 4px 0px 0px 0px;
+}
+/* mobilelistitem_5 */
+/* mobilelistitembutton_6 */
+.FriendsPage_mobilelistitembutton_6 {
+
+}
+/* mobilelistitem_7 */
+/* mobilelistitembutton_8 */
+.FriendsPage_mobilelistitembutton_8 {
+
+}
+/* mobilelistitem_9 */
+/* mobilelistitembutton_10 */
+.FriendsPage_mobilelistitembutton_10 {
+
+}
+/* mobilelistitem_11 */
+/* mobilelistitembutton_12 */
+.FriendsPage_mobilelistitembutton_12 {
+
+}
+/* mobilelistitem_13 */
+/* mobilelistitembutton_14 */
+.FriendsPage_mobilelistitembutton_14 {
+
+}
+/* mobilelistitem_15 */
+/* mobilelistitembutton_16 */
+.FriendsPage_mobilelistitembutton_16 {
+
+}
+/* mobilelistitem_17 */
+/* mobilelistitembutton_18 */
+.FriendsPage_mobilelistitembutton_18 {
+
+}
