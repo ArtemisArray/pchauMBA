@@ -1,10 +1,12 @@
 div.page {
 	height: 588px;
 	width: 360px;
+	
 }
 div.header {
 	height: 44px;
 	width: 360px;
+	
 }
 div.footer {
 	display:none;
@@ -13,73 +15,100 @@ div.footer {
 	padding:0em;
 }
 div.pagestart {
-	background: transparent url('Images/nexus5-homeScreenWChat_02.png') no-repeat center 44px fixed; 
+	background: transparent url('Images/MotoX-home_02.png') no-repeat center 44px fixed; 
 	
 }
 div.pageavatar {
-	background: transparent url('Images/nexus5-avatarBoard2Choice_02.png') no-repeat center 44px fixed; 
+	/*background: transparent url('Images/nexus5-avatarBoard2Choice_02.png') no-repeat center 44px fixed; */
+	background: transparent url('Images/Motox-avatar_02-avatar_02.png') no-repeat center 44px fixed; 
 }
 div.pageshop {
-	background: transparent url('Images/nexus5-burtonPage_02.png') no-repeat center 44px fixed; 
+	background: transparent url('Images/MotoX-avatar_02.png') no-repeat center 44px fixed; 
 }
 div.pagefriends {
-	background: transparent url('Images/nexus5-communityScreen-v3_02.png') no-repeat center 44px fixed; 
+	background: transparent url('Images/MotoX-friends_02.png') no-repeat center 44px fixed; 
 }
 .fullpage {display:block; width: 360px; height: 588px;}
 div.pagereplay {
-	background: transparent url('Images/nexus5-replayScreen_02.png') no-repeat center 44px fixed; 
+	background: transparent url('Images/MotoX-replay_02.png') no-repeat center 44px; 
 }
 div.pagereplayDisplay {
-	background: transparent url('Images/nexus5-transitionScreen_02.png') no-repeat center 44px fixed; 
+	background: transparent url('Images/MotoX-friends_02.png') no-repeat center 44px; 
 }
 
 div.pageresort {
-	background: transparent url('Images/nexus5-resortScreen-v2_02.png') no-repeat center 44px fixed; 
+	background: transparent url('Images/MotoX-resort_02.png.png') no-repeat center 44px; 
 }
 div.pagesettings {
-	background: transparent url('Images/nexus5-settingsScreen-v2_02.png') no-repeat center 44px fixed; 
+	background: transparent url('Images/MotoX-settings_02.png') no-repeat center 44px; 
 }
-div.pagestart,div.pageavatar,div.pageshop,div.pagefriends, div.pagereplay,div.pagereplayDisplay ,div.pageresort,div.pagesettings{
+div.pagestart,div.pageavatar,div.pageshop,div.pagefriends, div.pagereplayDisplay ,div.pageresort,div.pagesettings{
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	top: 0px;
+  	top: 0;
   	background-size: 360px 588px;
+  	background-size:height:93% width:auto;
+  	width: 360px;
+  	height: 588px;
+  	
+  	padding: 0em;
+
+  	
+
+}
+div.replayWrap {
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	top: 0;
+  	background-size: 360px 588px;
+  	
   	width: 360px;
   	height: 588px;
   	padding: 0em;
+  	
+}
+div.pagereplay {
+	width: auto;
+	height: 100%;
+	
 }
 
 div.startheader {
-	background: transparent url('Images/nexus5-homeScreenWChat_01.png') no-repeat top left fixed;
+	background: transparent url('Images/MotoX-home_01.png') no-repeat top center; 
 }
 div.avatarheader {
-	background: transparent url('Images/nexus5-avatarBoard2Choice_01.png') no-repeat top left fixed; 
+	background: transparent url('Images/MotoX-avatar_01.png') no-repeat top center; 
 }
 div.shopheader {
-	background: transparent url('Images/nexus5-burtonPage_01.png') no-repeat top left fixed; 
+	background: transparent url('Images/MotoX-avatar_01.png') no-repeat top center; 
 }
 div.friendsheader {
-	background: transparent url('Images/nexus5-communityTopBar_01.png') no-repeat top left fixed; 
+	background: transparent url('Images/MotoX-friends_01.png') no-repeat top center; 
 }
 div.replayheader {
-	background: transparent url('Images/nexus5-instantReplayTopBar_01.png') no-repeat top left fixed; 
+	background: transparent url('Images/MotoX-replay_01.png') no-repeat top center; 
 }
 div.replayDisplayheader {
-	background: transparent url('Images/nexus5-transitionScreen_01.png') no-repeat top left fixed; 
+	background: transparent url('Images/MotoX-home_01.png') no-repeat top center; 
 }
 div.resortheader {
-	background: transparent url('Images/nexus5-resortTopbar_01.png') no-repeat top left fixed; 
+	background: transparent url('Images/MotoX-resort_01.png') no-repeat top center; 
 }
 div.settingsheader {
-	background: transparent url('Images/nexus5-topbar-SettingsScreen_01.png') no-repeat top left fixed; 
+	background: transparent url('Images/MotoX-settings_01.png') no-repeat top center; 
 }
-div.startheader,div.avatarheader ,div.shopheader,div.friendsheader,div.replayheader,div.replayDisplayheader ,div.resortheader,div.settingsheader {
+div.startheader,div.avatarheader ,div.shopheader,div.friendsheader,div.replayDisplayheader ,div.resortheader,div.settingsheader {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+  	width: auto;
+	height: 100%;
+	background-size: auto 100%;
 }
 div.headerclass {
   	top: 0;
@@ -87,11 +116,61 @@ div.headerclass {
   	background-size: 360px 44px;
   	height: 44px;
   	width: 360px;
+  	background-size: 100% 6.3%;
+  	height: 7%;
+  	width: auto;
   	border-width: 0;
 	overflow: visible;
 	overflow-x: hidden;
 	padding: 0em;
-	margin:0;
+	margin:0; 
+
+	
+}
+div.headerReplayWrap {
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	top: 0;
+  	background-size: 360px 588px;
+  	background-size:height:93% width:auto;
+  	width: 360px;
+  	height: 588px;
+  	background-size: 100% 93%;
+  	height:93%;
+  	width:auto;
+  	padding: 0em;
+
+  	width: 100%;
+    position: absolute;
+    top: 7%;
+    left: 0;
+    /* */
+
+	top: 0;
+  	display: block;
+  	background-size: 360px 44px;
+  	height: 44px;
+  	width: 360px;
+  	background-size: 100% 6.3%;
+  	height: 8.2%;
+  	width: auto;
+  	border-width: 0;
+	overflow: visible;
+	overflow-x: hidden;
+	padding: 0em;
+	margin:0; 
+
+	width: 97.2%;
+    position: absolute;
+    top: 0;
+    left: 1.3%;
+}
+div.replayheader {
+	width: auto;
+	height: 100%;
+	background-size: auto 100%;
 }
 
 div.header.start {
@@ -107,7 +186,7 @@ div#avatar {
 }
 
 div.header.avatar {
-	background: transparent url('Images/nexus5-avatarBoard2Choice_02.png') no-repeat center center fixed; 
+	background: transparent url('Images/MotoX-avatart_01.png') no-repeat center center fixed; 
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -119,15 +198,16 @@ a.menulink { width: 55px; height: 44px; display: block;}
 
 .navpanel {
 	background-color: #141720;
-	background-image: url('Images/nexus5-navOverlay2.png');
+	background-image: url('Images/MotoX-nav.png');
 	background-repeat: no-repeat;
 	background-size: 360px 632px;
-}
+	
 
 .ui-page-theme-a .ui-body-inherit.navpanel {
 	background-color: #141720;
 	background-color:transparent;
 	width: 230px;
+	
 	box-shadow: none;
 }
 .navpanel .ui-panel-inner {
@@ -147,7 +227,8 @@ a.menulink { width: 55px; height: 44px; display: block;}
 .navpanel .ui-panel-inner ul li a {
 	display: block;
 	width: 100%;
-	height: 105px;
+	/*height: 105px;*/
+	height: 17%;
 }
 ul.homeSideNav {
 	list-style-type: none;
@@ -161,31 +242,37 @@ ul.homeSideNav li a {
 	display: block;
 	width: 30%;
 	height: 95px;
+	
 }
 ul.homeSideNav li a.one {
 	display: block;
 	width: 30%;
 	height: 100px;
+	
 }
 ul.homeSideNav li a.two {
 	display: block;
 	width: 30%;
 	height: 100px;
+	
 }
 ul.homeSideNav li a.three {
 	display: block;
 	width: 30%;
 	height: 95px;
+	
 }
 ul.homeSideNav li a.four {
 	display: block;
 	width: 30%;
 	height: 100px;
+	
 }
 ul.homeSideNav li a.five {
 	display: block;
 	width: 30%;
 	height: 100px;
+
 }
 
 
